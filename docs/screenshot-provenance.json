@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-06",
+  "source": "Screenshots captured through Codex browser tools from the running local Meeting Notes Lab at http://127.0.0.1:7860/",
+  "files": {
+    "notebook.png": "Real local transcription of the bundled synthetic sample.",
+    "create-speech.png": "Real completed local Carter speech generation from synthetic demonstration text."
+  }
+}

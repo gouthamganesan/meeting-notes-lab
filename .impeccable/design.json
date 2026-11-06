@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T08:07:00.566413+00:00",
+  "title": "Design System: Meeting Notes Lab",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0077 291.20)",
+          "oklch(26% 0.0154 291.20)",
+          "oklch(38% 0.0218 291.20)",
+          "oklch(49% 0.0256 291.20)",
+          "oklch(61% 0.0256 291.20)",
+          "oklch(72% 0.0218 291.20)",
+          "oklch(84% 0.0141 291.20)",
+          "oklch(95% 0.0051 291.20)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0067 298.67)",
+          "oklch(26% 0.0134 298.67)",
+          "oklch(38% 0.0190 298.67)",
+          "oklch(49% 0.0223 298.67)",
+          "oklch(61% 0.0223 298.67)",
+          "oklch(72% 0.0190 298.67)",
+          "oklch(84% 0.0123 298.67)",
+          "oklch(95% 0.0045 298.67)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0473 294.56)",
+          "oklch(26% 0.0946 294.56)",
+          "oklch(38% 0.1340 294.56)",
+          "oklch(49% 0.1576 294.56)",
+          "oklch(61% 0.1576 294.56)",
+          "oklch(72% 0.1340 294.56)",
+          "oklch(84% 0.0867 294.56)",
+          "oklch(95% 0.0315 294.56)"
+        ]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Accent Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0414 294.32)",
+          "oklch(26% 0.0829 294.32)",
+          "oklch(38% 0.1174 294.32)",
+          "oklch(49% 0.1381 294.32)",
+          "oklch(61% 0.1381 294.32)",
+          "oklch(72% 0.1174 294.32)",
+          "oklch(84% 0.0760 294.32)",
+          "oklch(95% 0.0276 294.32)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "tonalRamp": [
+          "oklch(15% 0.0041 299.80)",
+          "oklch(26% 0.0082 299.80)",
+          "oklch(38% 0.0116 299.80)",
+          "oklch(49% 0.0137 299.80)",
+          "oklch(61% 0.0137 299.80)",
+          "oklch(72% 0.0116 299.80)",
+          "oklch(84% 0.0075 299.80)",
+          "oklch(95% 0.0027 299.80)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0012 301.43)",
+          "oklch(26% 0.0025 301.43)",
+          "oklch(38% 0.0035 301.43)",
+          "oklch(49% 0.0041 301.43)",
+          "oklch(61% 0.0041 301.43)",
+          "oklch(72% 0.0035 301.43)",
+          "oklch(84% 0.0022 301.43)",
+          "oklch(95% 0.0008 301.43)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0030 305.40)",
+          "oklch(26% 0.0059 305.40)",
+          "oklch(38% 0.0084 305.40)",
+          "oklch(49% 0.0099 305.40)",
+          "oklch(61% 0.0099 305.40)",
+          "oklch(72% 0.0084 305.40)",
+          "oklch(84% 0.0054 305.40)",
+          "oklch(95% 0.0020 305.40)"
+        ]
+      },
+      "tint": {
+        "role": "neutral",
+        "displayName": "Tint",
+        "tonalRamp": [
+          "oklch(15% 0.0033 303.11)",
+          "oklch(26% 0.0066 303.11)",
+          "oklch(38% 0.0094 303.11)",
+          "oklch(49% 0.0110 303.11)",
+          "oklch(61% 0.0110 303.11)",
+          "oklch(72% 0.0094 303.11)",
+          "oklch(84% 0.0061 303.11)",
+          "oklch(95% 0.0022 303.11)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.0450 16.90)",
+          "oklch(26% 0.0901 16.90)",
+          "oklch(38% 0.1276 16.90)",
+          "oklch(49% 0.1501 16.90)",
+          "oklch(61% 0.1501 16.90)",
+          "oklch(72% 0.1276 16.90)",
+          "oklch(84% 0.0825 16.90)",
+          "oklch(95% 0.0300 16.90)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "tonalRamp": [
+          "oklch(15% 0.0055 303.39)",
+          "oklch(26% 0.0110 303.39)",
+          "oklch(38% 0.0156 303.39)",
+          "oklch(49% 0.0184 303.39)",
+          "oklch(61% 0.0184 303.39)",
+          "oklch(72% 0.0156 303.39)",
+          "oklch(84% 0.0101 303.39)",
+          "oklch(95% 0.0037 303.39)"
+        ]
+      },
+      "control-ink": {
+        "role": "neutral",
+        "displayName": "Control Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0139 300.95)",
+          "oklch(26% 0.0278 300.95)",
+          "oklch(38% 0.0393 300.95)",
+          "oklch(49% 0.0463 300.95)",
+          "oklch(61% 0.0463 300.95)",
+          "oklch(72% 0.0393 300.95)",
+          "oklch(84% 0.0255 300.95)",
+          "oklch(95% 0.0093 300.95)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.0100 303.38)",
+          "oklch(26% 0.0200 303.38)",
+          "oklch(38% 0.0283 303.38)",
+          "oklch(49% 0.0333 303.38)",
+          "oklch(61% 0.0333 303.38)",
+          "oklch(72% 0.0283 303.38)",
+          "oklch(84% 0.0183 303.38)",
+          "oklch(95% 0.0067 303.38)"
+        ]
+      },
+      "nav-ink": {
+        "role": "neutral",
+        "displayName": "Nav Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0107 299.65)",
+          "oklch(26% 0.0213 299.65)",
+          "oklch(38% 0.0302 299.65)",
+          "oklch(49% 0.0356 299.65)",
+          "oklch(61% 0.0356 299.65)",
+          "oklch(72% 0.0302 299.65)",
+          "oklch(84% 0.0196 299.65)",
+          "oklch(95% 0.0071 299.65)"
+        ]
+      },
+      "nav-selected": {
+        "role": "neutral",
+        "displayName": "Nav Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0407 295.35)",
+          "oklch(26% 0.0814 295.35)",
+          "oklch(38% 0.1154 295.35)",
+          "oklch(49% 0.1357 295.35)",
+          "oklch(61% 0.1357 295.35)",
+          "oklch(72% 0.1154 295.35)",
+          "oklch(84% 0.0747 295.35)",
+          "oklch(95% 0.0271 295.35)"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "Nav Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0067 302.92)",
+          "oklch(26% 0.0134 302.92)",
+          "oklch(38% 0.0190 302.92)",
+          "oklch(49% 0.0224 302.92)",
+          "oklch(61% 0.0224 302.92)",
+          "oklch(72% 0.0190 302.92)",
+          "oklch(84% 0.0123 302.92)",
+          "oklch(95% 0.0045 302.92)"
+        ]
+      },
+      "recording": {
+        "role": "neutral",
+        "displayName": "Recording",
+        "tonalRamp": [
+          "oklch(15% 0.0414 6.17)",
+          "oklch(26% 0.0829 6.17)",
+          "oklch(38% 0.1174 6.17)",
+          "oklch(49% 0.1381 6.17)",
+          "oklch(61% 0.1381 6.17)",
+          "oklch(72% 0.1174 6.17)",
+          "oklch(84% 0.0760 6.17)",
+          "oklch(95% 0.0276 6.17)"
+        ]
+      },
+      "recording-tint": {
+        "role": "neutral",
+        "displayName": "Recording Tint",
+        "tonalRamp": [
+          "oklch(15% 0.0040 0.26)",
+          "oklch(26% 0.0081 0.26)",
+          "oklch(38% 0.0115 0.26)",
+          "oklch(49% 0.0135 0.26)",
+          "oklch(61% 0.0135 0.26)",
+          "oklch(72% 0.0115 0.26)",
+          "oklch(84% 0.0074 0.26)",
+          "oklch(95% 0.0027 0.26)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Editable notebook names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable transcript text."
+      },
+      "support": {
+        "displayName": "Support",
+        "purpose": "Status and supporting copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Action buttons and speech labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "selected-navigation",
+        "value": "0 3px 10px rgba(48, 33, 78, 0.04)",
+        "purpose": "Selected desktop navigation only."
+      },
+      {
+        "name": "microphone",
+        "value": "0 4px 9px rgba(74, 49, 122, 0.12)",
+        "purpose": "Circular recording action."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background 0.18s ease, color 0.18s ease",
+        "purpose": "Button state changes; disabled by prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1180px"
+      },
+      {
+        "name": "single-workspace-max",
+        "value": "960px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "680px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shared action for notebook and speech tasks.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-primary\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 4 12 8-12 8V4Z\"/></svg>Generate speech</button></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-primary,\n.ds-secondary{\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  border-radius: 8px;\n  padding: 11px 15px;\n  font-size: 13px;\n  font-weight: 600;\n  text-decoration: none;\n  white-space: nowrap;\n}\n.ds-secondary svg,\n.ds-primary svg{\n  width: 17px;\n  height: 17px;\n}.ds-primary{\n  background: var(--accent,#6746ad);\n  color: white;\n  border: 1px solid transparent;\n}\n.ds-primary:hover{\n  background: var(--accent-dark,#51358c);\n}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Shared action for notebook and speech tasks.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-secondary\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 4 12 8-12 8V4Z\"/></svg>Generate speech</button></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-primary,\n.ds-secondary{\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  border-radius: 8px;\n  padding: 11px 15px;\n  font-size: 13px;\n  font-weight: 600;\n  text-decoration: none;\n  white-space: nowrap;\n}\n.ds-secondary svg,\n.ds-primary svg{\n  width: 17px;\n  height: 17px;\n}.ds-secondary{\n  background: white;\n  border: 1px solid #ddd8e5;\n  color: #5d536f;\n}\n.ds-secondary:hover{\n  background: var(--rail,#f0edf7);\n}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Low-emphasis action beside a result heading.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-quiet\">Copy text</button></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-quiet{\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  border: 0;\n  background: transparent;\n  color: var(--accent-dark,#51358c);\n  padding: 5px;\n  font-size: 12px;\n}\n.ds-quiet:hover:enabled{\n  background: var(--tint,#f6f3fb);\n  border-radius: 5px;\n}"
+    },
+    {
+      "name": "Workspace navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Selected and idle notebook destinations.",
+      "html": "<div class=\"ds-preview\"><nav class=\"ds-navigation\" aria-label=\"Workspace\"><button class=\"ds-active\" aria-current=\"page\">Notebook</button><button>Create speech</button></nav></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-navigation{\n  display: grid;\n  gap: 7px;\n  margin-top: 48px;\n}\n.ds-navigation button{\n  border: 0;\n  background: transparent;\n  display: flex;\n  gap: 11px;\n  align-items: center;\n  text-align: left;\n  padding: 13px 12px;\n  border-radius: 9px;\n  font-size: 14px;\n  font-weight: 550;\n  color: #655e74;\n}\n.ds-navigation button:hover{\n  background: #e8e2f2;\n}\n.ds-navigation button.ds-active{\n  background: white;\n  color: #503388;\n  box-shadow: 0 3px 10px rgba(48, 33, 78, 0.04);\n}.ds-navigation{margin-top:0;background:var(--rail,#f0edf7);padding:12px;max-width:220px}"
+    },
+    {
+      "name": "Availability label",
+      "kind": "chip",
+      "refersTo": "availability",
+      "description": "A factual availability tag.",
+      "html": "<div class=\"ds-preview\"><span class=\"ds-availability\">Working here</span></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-availability{\n  display: inline-block;\n  background: white;\n  border-radius: 5px;\n  font-size: 12px;\n  padding: 6px 8px;\n  color: #58436f;\n  white-space: nowrap;\n}"
+    },
+    {
+      "name": "Notebook sheet",
+      "kind": "card",
+      "refersTo": "notebook",
+      "description": "White paper with a separated privacy footer.",
+      "html": "<div class=\"ds-preview\"><section class=\"ds-notebook\"><p>Your words stay with you.</p><div class=\"ds-paper-foot\">Audio and exports stay in this project.</div></section></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-notebook{\n  background: white;\n  border: 1px solid var(--line,#e8e5ec);\n  border-radius: var(--radius,14px);\n  min-width: 0;\n  padding: 25px 28px 0;\n  overflow: clip;\n}\n.ds-paper-foot{\n  margin: 0 -28px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 7px;\n  background: #fdfcfe;\n  border-top: 1px solid var(--line,#e8e5ec);\n  padding: 13px 16px;\n  font-size: 12px;\n  color: #756c80;\n}"
+    },
+    {
+      "name": "Speech fields",
+      "kind": "input",
+      "refersTo": "writing-field",
+      "description": "Writable passage and installed voice selection.",
+      "html": "<div class=\"ds-preview\"><label for=\"ds-passage\">What would you like to say?</label><textarea id=\"ds-passage\" class=\"ds-speech-text\" placeholder=\"Write a full sentence\u2026\"></textarea><label for=\"ds-voice\">Voice</label><select id=\"ds-voice\" class=\"ds-speech-voice\"><option>Carter man \u00b7 English</option></select></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-speech-text{display:block;width:100%;min-height:240px;resize:vertical;border:1px solid #c7bed5;background:var(--white,#fff);color:var(--ink,#292735);border-radius:7px;padding:16px;font-family:inherit;font-size:16px;line-height:1.75;caret-color:var(--accent,#6746ad)}.ds-speech-text::placeholder{color:var(--muted,#696573)}.ds-speech-voice{width:100%;min-height:44px;border:1px solid #c7bed5;color:var(--ink,#292735);background:var(--white,#fff);border-radius:6px;padding:10px;font-family:inherit;font-size:13px}.ds-speech-text:focus-visible,.ds-speech-voice:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:3px}.ds-preview label{display:block;font-size:13px;font-weight:600;margin:12px 0 10px}"
+    },
+    {
+      "name": "Capture inset",
+      "kind": "custom",
+      "refersTo": "capture",
+      "description": "Microphone action with supporting instructions and elapsed time.",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-capture-bar\"><button class=\"ds-mic\" aria-label=\"Start recording\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/><path d=\"M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8\"/></svg></button><div class=\"ds-capture-copy\"><strong>Start a conversation</strong><span>Tap the mic. Tap again when you\u2019re done.</span></div><span class=\"ds-timer\">00:00</span></div></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-capture-bar{\n  display: flex;\n  gap: 16px;\n  align-items: center;\n  background: var(--tint,#f6f3fb);\n  padding: 18px;\n  border-radius: 10px;\n}\n.ds-mic{\n  height: 52px;\n  width: 52px;\n  border: 0;\n  flex-shrink: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  background: var(--accent,#6746ad);\n  color: white;\n  box-shadow: 0 4px 9px rgba(74, 49, 122, 0.12);\n}\n.ds-mic svg{\n  height: 23px;\n  width: 23px;\n}\n.ds-mic:hover{\n  background: var(--accent-dark,#51358c);\n}\n.ds-capture-copy{\n  display: grid;\n  gap: 5px;\n  min-width: 0;\n}\n.ds-capture-copy strong{\n  font-size: 14px;\n  font-weight: 600;\n}\n.ds-capture-copy > span{\n  font-size: 12px;\n  line-height: 1.5;\n  color: var(--muted,#696573);\n}\n.ds-timer{\n  font-size: 12px;\n  font-variant-numeric: tabular-nums;\n  color: var(--muted,#696573);\n  margin-left: auto;\n}\n.ds-mic.ds-recording{\n  background: #a23b58;\n}\n.ds-capture-bar:has(.ds-recording){\n  background: #fcf0f3;\n}"
+    },
+    {
+      "name": "Import zone",
+      "kind": "custom",
+      "refersTo": "import-zone",
+      "description": "Drop target for local media.",
+      "html": "<div class=\"ds-preview\"><label class=\"ds-dropzone\" tabindex=\"0\"><input type=\"file\" accept=\"audio/*,video/*\" hidden><strong>Drop your recording here</strong><span>or click to browse files</span><small>MP4, MOV, MKV, MP3, M4A, WAV \u00b7 Up to 4 GB</small></label></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-dropzone{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  border: 1px dashed #bdb1d1;\n  border-radius: 10px;\n  background: var(--tint,#f6f3fb);\n  padding: 37px 18px;\n  cursor: pointer;\n  transition: background 0.18s;\n}\n.ds-dropzone:hover,\n.ds-dropzone.ds-dragging{\n  background: #ece4f8;\n  border-color: var(--accent,#6746ad);\n}\n.ds-dropzone[aria-disabled=\"true\"]{\n  opacity: 0.55;\n  cursor: wait;\n}\n.ds-dropzone strong{\n  font-weight: 550;\n  font-size: 17px;\n  margin-bottom: 8px;\n}\n.ds-dropzone > span:not(.ds-upload-symbol){\n  font-size: 12px;\n  color: var(--accent-dark,#51358c);\n}\n.ds-dropzone small{\n  font-size: 12px;\n  color: var(--muted,#696573);\n  margin-top: 24px;\n  line-height: 1.6;\n}"
+    },
+    {
+      "name": "Download links",
+      "kind": "custom",
+      "refersTo": "download",
+      "description": "Wrapping export choices below a result.",
+      "html": "<div class=\"ds-preview\"><div class=\"ds-downloads\"><a href=\"#transcript\">Download transcript</a><a href=\"#audio\">Download WAV</a></div></div>",
+      "css": ".ds-preview{font-family:Hanken, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;color:var(--ink,#292735);}.ds-preview button{font-family:inherit;cursor:pointer;transition:background .18s ease,color .18s ease}.ds-preview button:disabled{opacity:.45;cursor:not-allowed}.ds-preview button:focus-visible,.ds-preview input:focus-visible,.ds-preview a:focus-visible,.ds-preview [tabindex]:focus-visible{outline:2px solid var(--accent,#6746ad);outline-offset:4px;}.ds-preview svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}@media(prefers-reduced-motion:reduce){.ds-preview *{transition:none!important}}.ds-downloads{\n  display: flex;\n  gap: 8px;\n  flex-wrap: wrap;\n  margin: 0 0 24px;\n}\n.ds-downloads a{\n  border: 1px solid #ddd5e8;\n  border-radius: 6px;\n  padding: 9px 11px;\n  text-decoration: none;\n  font-size: 12px;\n  color: var(--accent-dark,#51358c);\n  background: var(--tint,#f6f3fb);\n}\n.ds-downloads a:hover{\n  background: #ebe2f6;\n}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The meeting notebook",
+    "overview": "A polished, Wispr-like notebook with a cool lavender rail, white writing surfaces, graphite text and deep violet actions. The user chose this familiar notebook persona; retain its quiet, compact controls and generous writing area.\n\nSpeech creation shares the same paper, controls and supporting explanations as transcription. Typography and tonal separation supply the hierarchy; decoration stays subordinate to the words.",
+    "keyCharacteristics": [
+      "Lavender navigation surrounding a white writing surface.",
+      "Compact controls, generous transcript line spacing and restrained separators.",
+      "One shared visual vocabulary for recording, importing and creating speech."
+    ],
+    "rules": [
+      {
+        "name": "The Violet Action Rule",
+        "body": "Use deep violet for actions, selection and focus; reserve rose for recording and error states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Writing Space Rule",
+        "body": "Give transcripts room to breathe; keep supporting labels compact and muted.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Depth Rule",
+        "body": "Separate sheets with tone and thin borders; reserve soft shadows for selected navigation and the microphone.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reuse the lavender rail, white notebook and violet action pairing.",
+      "Do retain explicit focus outlines, reduced-motion support and real status labels.",
+      "Do use the existing muted color for secondary text, including format extensions.",
+      "Do let mobile navigation form a two-column grid and keep the writing surface full width."
+    ],
+    "donts": [
+      "Don't add a separate visual identity for speech creation.",
+      "Don't imply fabricated live activity, summaries or unavailable capabilities.",
+      "Don't turn the writing surface into a stack of heavily shadowed cards."
+    ]
+  }
+}

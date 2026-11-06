@@ -1,0 +1,17 @@
+{
+  "kind": "synthetic speech",
+  "model": "microsoft/VibeVoice-Realtime-0.5B",
+  "text": "Let's keep the first version focused on the meeting transcript. We need a simple recording button and a way to import an existing audio or video file. The transcript should be easy to copy, with subtitles available to download. Speaker labels and automatic summaries can wait. Before we share the prototype, let's check the timing on a short recording and make the model limitations clear.",
+  "voice": "base:en-Carter_man",
+  "steps": 5,
+  "guidance": 1.5,
+  "seed": 42,
+  "metrics": {
+    "device": "mps",
+    "total_seconds": 26.44,
+    "generation_seconds": 15.65,
+    "audio_seconds": 21.47,
+    "first_audio_seconds": 11.28,
+    "realtime_factor": 0.73
+  }
+}

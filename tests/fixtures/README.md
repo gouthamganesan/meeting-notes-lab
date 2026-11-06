@@ -1,0 +1,1 @@
+Synthetic regression fixtures only. No real meeting or microphone capture is included. mic-test.wav contains a generated spoken transcription test; check-video.mp4 embeds that synthetic test with a three-second starting offset; silence.wav checks the no-speech path.

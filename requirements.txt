@@ -1,0 +1,8 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.33
+av==17.1.0
+numpy==2.4.6
+soundfile==0.14.0
+onnxruntime==1.31.1
+cmake==4.4.4
